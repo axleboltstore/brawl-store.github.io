@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+::-webkit-scrollbar-button {
+	background-image: url('');
+	background-repeat: no-repeat;
+	width: 5px;
+	height: 0px
+}
+
+::-webkit-scrollbar-track {
+	background-color: #8A6FFF
+}
+
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 0px;
+	border-radius: 10px;
+	background-color: #3C22FF;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: #0600FF;
+}
+
+::-webkit-resizer{
+	background-image: url('');
+	background-repeat: no-repeat;
+	width: 4px;
+	height: 0px
+}
+
+::-webkit-scrollbar{
+	width: 6px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(../img/bagr.png);
+	width: 100%;
+}
+
+header {
+	width: 100%;
+}
+
+header>img {
+	width: 100%;
+	box-shadow: 1px 1px 10px #000;
+}
+
+menu {
+	margin-top: 3%;
+	width: 100%;
+}
+
+menu>div#links {
+	text-align: center;
+}
+
+menu>div#links>a {
+	text-decoration: none;
+	margin: 2%;
+	color: #FFF;
+	border: 1px solid #FFF;
+	font-size: 2vw;
+	font-family: 'Roboto Slab', serif;
+	background-color: rgba(5, 49, 170, 0.5);
+	transition: 0.2s linear;
+}
+
+menu>div#links>a#a1 {
+	padding-left: 3.5%;
+	padding-right: 3.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+menu>div#links>a#a2 {
+	padding-left: 3.2%;
+	padding-right: 3.2%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+menu>div#links>a#a3 {
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+menu>div#links>a:hover {
+	background-color: rgba(5, 49, 170, 1);
+}
+
+info {
+	width: 100%;
+}
+
+info>div#box1 {
+	float: left;
+	margin-top: 7.5%;
+	margin-bottom: 10%;
+	width: 80%;
+	margin-left: 10%;
+	box-shadow: 1px 1px 10px #000;
+	background-color: #0531aa;
+	padding: 2%;
+}
+
+info>div#box1>div#img {
+	float: left;
+	width: 50%;
+}
+
+info>div#box1>div#img>img {
+	width: 50%;
+	box-shadow: 1px 1px 10px #000;
+}
+
+info>div#box1>div#span {
+	text-align: left;
+}
+
+info>div#box1>div#span>span {
+	font-size: 2vw;
+	font-family: 'Roboto Slab', serif;
+	color: #FFF;
+}
+
+info>div#box1>div#forms {
+	margin-top: 15%;
+	text-align: center;
+}
+
+info>div#box1>div#forms>input {
+	margin-top: 2%;
+	width: 35%;
+	padding: 1%;
+	border: none;
+	font-size: 1.5vw;
+	box-shadow: 1px 1px 10px #000;
+	background-color: #FFF;
+	color: #000;
+	font-family: 'Roboto Slab', serif;
+}
+
+info>div#box1>div#forms>button {
+	margin-top: 2%;
+	width: 35%;
+	padding: 1%;
+	border: none;
+	font-size: 1.5vw;
+	box-shadow: 1px 1px 10px #000;
+	background-color: #FFF;
+	color: #000;
+	font-family: 'Roboto Slab', serif;
+	margin-bottom: 5%;
+	transition: 0.2s linear;
+}
+
+info>div#box1>div#forms>button:hover {
+	background-color: #343434;
+	color: #FFF;
+}
